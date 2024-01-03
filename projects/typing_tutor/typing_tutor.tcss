@@ -1,0 +1,47 @@
+Screen {
+    layout: grid;
+    grid-size: 3 2;
+    grid-columns: 1fr;
+    grid-rows: 30% 70%;
+}
+
+Select {
+    margin: 2;
+}
+
+#top-h{
+    column-span: 3;
+}
+
+#orig{
+    background: dimgrey 75%;
+    height: 100%;
+}
+
+#diff{
+    background: black 75%;
+    height: 100%;
+}
+
+#typing_area{
+    height: 100%;
+}
+
+Bar > .bar--indeterminate {
+    color: $primary;
+    background: $secondary;
+}
+
+Bar > .bar--bar {
+    color: $primary;
+    background: $primary 30%;
+}
+
+Bar > .bar--complete {
+    color: $error;
+}
+
+PercentageStatus {
+    text-style: reverse;
+    color: $secondary;
+}
